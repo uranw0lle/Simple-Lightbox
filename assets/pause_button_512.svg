@@ -1,0 +1,14 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect id="svg_2" height="0" width="1" y="-13.5" x="-443" stroke="#000" fill="#fff"/>
+  <path transform="rotate(90 145.51 254.374)" stroke="#e5e5e5" id="svg_7" d="m-110.99001,189.37445l512.99999,0l0,130l-512.99999,0l0,-130z" fill="url(#svg_6)"/>
+  <path transform="rotate(90 372.51 252.374)" stroke="#e5e5e5" id="svg_13" d="m116.00999,187.37445l512.99999,0l0,130l-512.99999,0l0,-130z" fill="url(#svg_6)"/>
+ </g>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_6">
+   <stop offset="0" stop-color="#000000"/>
+   <stop offset="1" stop-color="#fff"/>
+  </linearGradient>
+ </defs>
+</svg>
