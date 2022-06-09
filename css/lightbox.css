@@ -55,8 +55,10 @@
     margin: 2%;
     cursor: pointer;
     text-decoration: none;
-
+    
+    background-color: var(--background-color);
     color: var(--color-button);
+    
     border: currentColor 0.1em solid;
     border-radius: 0.25em;
     padding: 0.25em 1em;
