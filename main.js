@@ -1,17 +1,15 @@
-
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('.lightbx__image');
 const lightbox = document.createElement('div');
 const controlls = document.createElement('div');
 
 lightbox.id = 'lightbox';
 controlls.id = 'controlls';
 
-controllsElements = '<button id="previousImage" onclick="previousImage()">Back</button>' +
-                    '<button id="closeButton" onclick="closeImage()">Close</button>'+
-                    '<button id="nextImage" onclick="nextImage()">Next</button>';
-                    
+controllsElements = '<button id="previousImage">Back</button>' +
+                    '<button id="closeButton">Close</button>'+
+                    '<button id="nextImage">Next</button>';
 
-
+  
  // Extacting Images paths from images Object                         
 const imageSrc = Object.entries(images);
 var imgSrc = [];
@@ -19,7 +17,6 @@ var imgSrc = [];
 for(let i = 0; i < imageSrc.length; i++){
     imgSrc.push(imageSrc[i][1].src);
 }
-
 
 // Create the Lighbox and append image and controll elements
 
@@ -37,7 +34,10 @@ function showImage() {
     lightbox.appendChild(img);
     lightbox.appendChild(controlls);
     controlls.innerHTML = controllsElements;
-
+  
+    document.getElementById("nextImage").addEventListener("click", nextImage);   
+    document.getElementById("previousImage").addEventListener("click", previousImage);
+    document.getElementById("closeButton").addEventListener("click", closeImage);
 
 }
 
@@ -94,10 +94,4 @@ document.addEventListener('keydown', e => {
 
 images.forEach(element => { element.addEventListener('click', showImage) });
 document.body.appendChild(lightbox); 
-
-
-
-
-
-
 
