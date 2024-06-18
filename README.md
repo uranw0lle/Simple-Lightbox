@@ -7,10 +7,6 @@ Ths project features a simple lighbox for photos for any kind of HTML website. I
 
 ![SimpleLightBox Screenshot](./screenshots/SimpleLightboxjpg.jpg)
 
-
-### Watch a demo on Netlify: [Simple Lightbox - Netlify](https://jocular-praline-6878a4.netlify.app/)
-
-
 ___
 ## How the files are sorted
 
